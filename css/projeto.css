@@ -1,0 +1,292 @@
+/* =========================================================
+   PÁGINA DE PROJETO — projeto.html
+   ========================================================= */
+
+/* ---------- hero do projeto ---------- */
+
+.project-hero {
+  position: relative;
+}
+
+.project-hero .wrap {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.project-hero h1 {
+  margin-top: 0.75rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.project-hero .resumo {
+  max-width: 42rem;
+  margin-top: 1.25rem;
+  line-height: 1.7;
+  color: var(--muted-foreground);
+}
+
+.project-hero .chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.75rem;
+}
+
+/* ---------- conteúdo ---------- */
+
+.project-main {
+  width: 100%;
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 0 1.5rem 6rem;
+}
+
+/* ---------- galeria ---------- */
+
+.gallery {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.5rem;
+}
+
+.gallery-track {
+  display: flex;
+  height: 100%;
+  transform: translateX(calc(var(--slide, 0) * -100%));
+  transition: transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.gallery-slide {
+  display: flex;
+  width: 100%;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: oklch(0.24 0.025 18 / 0.4);
+}
+
+.gallery-slide img {
+  width: auto;
+  max-width: 100%;
+  max-height: 420px;
+  border-radius: 0.75rem;
+  object-fit: contain;
+}
+
+/* ---------- navegação ---------- */
+
+.gallery-nav {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  padding: 0.625rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: oklch(0.14 0.012 20 / 0.8);
+  transform: translateY(-50%);
+  backdrop-filter: blur(6px);
+  transition: all 200ms;
+}
+
+.gallery-nav:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.gallery-nav.prev {
+  left: 1rem;
+}
+
+.gallery-nav.next {
+  right: 1rem;
+}
+
+/* ---------- indicadores ---------- */
+
+.gallery-dots {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  display: flex;
+  gap: 0.5rem;
+  transform: translateX(-50%);
+}
+
+.gallery-dots button {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 999px;
+  background: oklch(0.72 0.02 20 / 0.4);
+  transition: all 200ms;
+}
+
+.gallery-dots button:hover {
+  background: oklch(0.72 0.02 20 / 0.7);
+}
+
+.gallery-dots button.active {
+  width: 1.5rem;
+  background: var(--accent);
+}
+
+/* ---------- contador ---------- */
+
+.slide-page {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: oklch(0.14 0.012 20 / 0.8);
+  font-size: 0.75rem;
+  color: var(--muted-foreground);
+  backdrop-filter: blur(6px);
+}
+
+/* ---------- detalhes ---------- */
+
+.detail-grid {
+  display: grid;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.detail-grid article > div + div {
+  margin-top: 2.5rem;
+}
+
+.detail-grid h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.detail-grid p {
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--muted-foreground);
+}
+
+/* ---------- repositório ---------- */
+
+.aside {
+  height: fit-content;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.aside-text {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.aside .btn-primary {
+  width: 100%;
+  justify-content: center;
+  margin-top: 1.25rem;
+  padding: 0.75rem 1.25rem;
+}
+
+/* ---------- outros projetos ---------- */
+
+.others {
+  margin-top: 4rem;
+  border-top: 1px solid oklch(0.3 0.03 18 / 0.6);
+  padding-top: 2rem;
+}
+
+.others .eyebrow {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.others-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.others-list a {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  transition:
+    color 200ms,
+    border-color 200ms;
+}
+
+.others-list a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* ---------- projeto não encontrado ---------- */
+
+.notfound {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.notfound-box {
+  max-width: 28rem;
+  text-align: center;
+}
+
+.notfound-box h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.notfound-box h2 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+
+.notfound-box p {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.notfound-action {
+  margin-top: 1.5rem;
+}
+
+/* ---------- responsividade ---------- */
+
+@media (min-width: 768px) {
+  .gallery-slide {
+    padding: 1.5rem;
+  }
+
+  .gallery-slide img {
+    max-height: 560px;
+  }
+
+  .gallery-nav {
+    opacity: 0;
+  }
+
+  .gallery:hover .gallery-nav {
+    opacity: 1;
+  }
+
+  .project-hero h1 {
+    font-size: 3rem;
+  }
+
+  .project-hero .wrap {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .detail-grid {
+    grid-template-columns: 1.5fr 1fr;
+  }
+}
