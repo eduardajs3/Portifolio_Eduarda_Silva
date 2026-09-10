@@ -43,7 +43,13 @@ const courses = [
     nome: "AZ-900: Introdução à Infraestrutura de Nuvem",
     instituicao: "Microsoft",
     horas: "8h",
-    periodo: "08/2026 — 02/2026",
+    periodo: "08/2026",
+  },
+  {
+    nome: "Cloud Digital Leader Certification",
+    instituicao: "Google Cloud",
+    horas: "8h",
+    periodo: "08/2026",
   },
   {
     nome: "Imersão Front-end — 2ª edição",
@@ -80,7 +86,7 @@ const projects = [
     descricao:
       "O Sports Academy é um portal institucional desenvolvido no 1º semestre do curso de Desenvolvimento de Software Multiplataforma. O projeto teve como objetivo apresentar as modalidades esportivas oferecidas pela instituição, como Vôlei, Basquete e Futsal, além de incentivar o engajamento dos usuários por meio do agendamento de aulas experimentais. O desenvolvimento também foi realizado como forma de praticar e aprimorar o uso do Bootstrap na construção de interfaces responsivas e modernas.",
     tecnologias: ["HTML5", "CSS3", "JavaScript", "Bootstrap 5", "Figma"],
-    repo: "https://github.com/DSM2SEM2024/webpage-bootstrap.git",
+    repo: "https://github.com/eduardajs3/projeto_bootstrap.git",
     imagem: "img/proj_sport.png",
     participacao:
       "Responsável pelo desenvolvimento do Front-end, desde a criação e prototipação das interfaces no Figma até a estruturação e estilização das páginas, aplicando HTML semântico e boas práticas de acessibilidade.",
