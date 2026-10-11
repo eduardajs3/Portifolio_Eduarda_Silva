@@ -1,4 +1,4 @@
-// Ícones (mesmos traços do lucide-react usado na versão React)
+
 const ICONS = {
   arrowUpRight: '<path d="M7 7h10v10"/><path d="M7 17 17 7"/>',
   arrowLeft: '<path d="m12 19-7-7 7-7"/><path d="M19 12H5"/>',

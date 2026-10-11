@@ -1,5 +1,3 @@
-// Página de detalhe do projeto — apenas lógica JavaScript.
-// A marcação vive em projeto.html e o estilo em styles.css.
 
 const tpl = (id) => document.getElementById(id).content.firstElementChild;
 const clone = (id) => tpl(id).cloneNode(true);
@@ -8,7 +6,10 @@ const setText = (root, selector, value) => {
 };
 
 
-const slug = new URLSearchParams(location.search).get("slug");
+const isProjectPage = location.pathname.includes("/projetos/");
+const slug = isProjectPage
+  ? location.pathname.split("/").pop().replace(/\.html$/, "")
+  : new URLSearchParams(location.search).get("slug");
 const projeto = projects.find((x) => x.slug === slug);
 
 if (!projeto) {
@@ -43,14 +44,12 @@ function renderConteudo(p) {
   const repoBack = document.querySelector("[data-repo-back]");
 
   if (p.repos) {
-    // Projeto com Front-end e Back-end
     repoFront.href = p.repos.frontend;
     repoBack.href = p.repos.backend;
 
     repoFront.hidden = false;
     repoBack.hidden = false;
   } else if (p.repo) {
-    // Projeto com apenas um repositório
     repoFront.href = p.repo;
     repoFront.hidden = false;
     repoBack.hidden = true;
@@ -89,7 +88,7 @@ function renderOutros(p) {
     .filter((o) => o.slug !== p.slug)
     .forEach((o) => {
       const link = clone("tpl-outro");
-      link.href = `projeto.html?slug=${encodeURIComponent(o.slug)}`;
+      link.href = `projetos/${encodeURIComponent(o.slug)}.html`;
       link.textContent = o.nome;
       alvo.appendChild(link);
     });

@@ -78,6 +78,7 @@ function renderCursos() {
     setText(el, "[data-instituicao]", c.instituicao);
     setText(el, "[data-horas]", `Carga horária: ${c.horas}`);
     setText(el, "[data-periodo]", c.periodo);
+    setText(el, "[data-local]", c.local);
     alvo.appendChild(el);
   });
 }
@@ -97,7 +98,7 @@ function renderProjetos() {
   const alvo = document.getElementById("projetosLista");
   projects.forEach((p) => {
     const el = clone("tpl-projeto");
-    el.href = `projeto.html?slug=${encodeURIComponent(p.slug)}`;
+    el.href = `projetos/${encodeURIComponent(p.slug)}.html`;
 
     const img = el.querySelector("[data-img]");
     img.src = p.imagem;

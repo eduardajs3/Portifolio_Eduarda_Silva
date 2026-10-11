@@ -26,10 +26,13 @@
   color: var(--muted-foreground);
 }
 
-.project-hero .chips {
+.chips {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+}
+
+.project-hero .chips {
   margin-top: 1.75rem;
 }
 

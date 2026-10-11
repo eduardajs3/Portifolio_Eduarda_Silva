@@ -2,12 +2,12 @@
 const profile = {
   name: "Eduarda Josileide da Silva",
   foto: "img/Eduarda.jpg",
-  role: "Desenvolvedora de Software Multiplataforma",
+  role: "Estudante de Desenvolvimento de Software Multiplataforma",
   github: "https://github.com/eduardajs3",
   tagline:
     "Estudante de DSM na Fatec Itaquera e estagiária de suporte técnico, unindo infraestrutura e desenvolvimento para construir soluções que funcionam de verdade.",
   course: {
-    faculdade: "Fatec Itaquera — Prof. Miguel Reale",
+    faculdade: "Faculdade de Tecnologia de São Paulo (Fatec) — Unidade Itaquera, Prof. Miguel Reale",
     curso: "Desenvolvimento de Software Multiplataforma",
     semestre: "6º semestre",
     inicio: "01/2024",
@@ -33,40 +33,66 @@ const experiences = [
 ];
 
 const courses = [
-  {
-    nome: "Certificado Profissional em Design de UX",
-    instituicao: "Google | Coursera",
-    horas: "200h",
-    periodo: "05/2026 — Em andamento",
+   {
+    nome: "Segurança de Endpoint",
+    instituicao: "Cisco Networking Academy",
+    horas: "27h",
+    periodo: "02/2024 — 03/2024",
+    local: "Online",
   },
+   {
+    nome: "Imersão Front-end — 2ª edição",
+    instituicao: "Alura",
+    horas: "5h",
+    periodo: "02/2025",
+    local: "Online",
+  },
+  {
+    nome: "Python",
+    instituicao: "FIAP",
+    horas: "80h",
+    periodo: "01/2025 — 02/2025",
+    local: "Online",
+  },
+  {
+    nome: "Git e GitHub: compartilhando e colaborando em projetos",
+    instituicao: "Alura",
+    horas: "8h",
+    periodo: "06/2025",
+    local: "Online",
+  },
+  {
+    nome: "UX design: conceitos visuais na prática",
+    instituicao: "Alura",
+    horas: "8h",
+    periodo: "06/2026",
+    local: "Online",
+  },
+  
   {
     nome: "AZ-900: Introdução à Infraestrutura de Nuvem",
     instituicao: "Microsoft",
     horas: "8h",
     periodo: "08/2026",
+    local: "Online",
   },
   {
     nome: "Cloud Digital Leader Certification",
     instituicao: "Google Cloud",
     horas: "8h",
     periodo: "08/2026",
+    local: "Online",
   },
+  
+
   {
-    nome: "Imersão Front-end — 2ª edição",
+    nome: "Figma: interatividade e prototipação",
     instituicao: "Alura",
-    horas: "5h",
-    periodo: "02/2025",
+    horas: "6h",
+    periodo: "06/2026",
+    local: "Online",
   },
-  { nome: "Python", 
-    instituicao: "FIAP",
-     horas: "80h", 
-     periodo: "01/2025 — 02/2025" },
-  {
-    nome: "Segurança de Endpoint",
-    instituicao: "Cisco Networking Academy",
-    horas: "27h",
-    periodo: "02/2024 — 03/2024",
-  },
+ 
 ];
 
 const languages = [
@@ -118,8 +144,8 @@ const projects = [
     resumo:
       "Sistema de gestão interna para controle de fluxo de caixa, gestão de clientes, elaboração de orçamentos e registro das movimentações financeiras de cada projeto solar.",
     descricao:
-      "O Sistema Interno GT Solar é uma plataforma de gestão empresarial desenvolvida para centralizar a operação comercial e financeira da empresa. O sistema organiza todo o ciclo de atendimento e execução dos projetos em um único lugar: Dashboard Operacional com visão geral dos principais indicadores, Gestão de Clientes com cadastro e consulta centralizada, Projetos & Orçamentos com registro de projetos finalizados e em andamento com cálculo de valores totais, e Fluxo de Caixa com registro de entradas, saídas e movimentações financeiras vinculadas a cada projeto executado, permitindo o acompanhamento do faturamento real.",
-    tecnologias: ["React", "Java", "Tailwind CSS"],
+      "O Sistema Interno GT Solar é uma plataforma de gestão empresarial desenvolvida para centralizar a operação comercial e financeira da empresa. O sistema organiza todo o ciclo de atendimento e execução dos projetos em um único lugar: Dashboard operacional com visão geral dos principais indicadores, gestão de clientes com cadastro e consulta centralizada, projetos e orçamentos com registro de projetos finalizados e em andamento com cálculo de valores totais, e fluxo de caixa com registro de entradas, saídas e movimentações financeiras vinculadas a cada projeto executado, permitindo o acompanhamento do faturamento real.",
+    tecnologias: ["React", "Java", "MongoDB", "Tailwind CSS", "Figma"],
     repos: {
       frontend: "https://github.com/Grupo-Fatec/GT-Solar-FrontEnd.git",
       backend: "https://github.com/Grupo-Fatec/GT-Solar-Backend.git"
@@ -127,7 +153,7 @@ const projects = [
     imagem: "img/proj_gt_sistema.png",
     participacao:
       "Atuei no UI/UX Design, auxiliando na prototipagem das telas no Figma com um layout limpo para facilitar o uso , e no Front-end com React e Tailwind CSS, desenvolvendo a interface e estruturando os dados dos formulários de cadastro de clientes e projetos.",
-    minhasTecnologias: ["React", "Java", "MongoDB", "Tailwind CSS", "Figma"],
+    minhasTecnologias: ["React", "Tailwind CSS", "Figma"],
     galeria: ["img/GtLogin.png", "img/projetosgt.png", "img/clientesgt.png", "img/engenheirosgt.png","img/instaladoresgt.png", "img/orcamentosgt.png"],
   },
   {
@@ -147,7 +173,7 @@ const projects = [
     imagem: "img/proj_gt_site.png",
     participacao:
       "Atuei no UI/UX Design & Prototipagem, auxiliando na criação e estruturação do protótipo no Figma com um visual moderno para o site e uma interface intuitiva para o Painel Administrativo, e no Desenvolvimento Front-end com React e Tailwind CSS, implementando as interfaces do site e do sistema de gestão em React com Tailwind CSS, com estilização responsiva e suporte fluido ao alternador de temas (Dark Mode).",
-    minhasTecnologias: ["React", "Tailwind CSS", "Java", "MongoDB", "Figma"],
+    minhasTecnologias: ["React", "Tailwind CSS", "Figma"],
     galeria: ["img/HomeGt.png", "img/QuemSomosGt.png","img/Simulador.png","img/Modoescuro.png","img/FAQ.png","img/Projetos.png","img/Contato.png","img/Home.png","img/ProjetosAdmin.png","img/ContatosAdmin.png"],
   },
   {
