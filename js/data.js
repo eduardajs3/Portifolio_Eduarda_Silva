@@ -129,7 +129,7 @@ const projects = [
     descricao:
       "O Sistema de Atendimento Nutricional foi projetado para cobrir o ciclo completo da rotina da profissional de nutrição, dividido em duas estruturas principais: a Landing Page Institucional (página pública), focada em atrair novos clientes, com apresentação profissional, sessão de depoimentos de pacientes, formulário de contato e área de cadastro; e o Painel de Gestão (área restrita), acessível via tela de autenticação, com Dashboard interativo de atendimentos, módulo de gestão e prontuário de pacientes, agenda de consultas e agendamento de reuniões.",
     tecnologias: ["PHP", "React", "Figma", "SQLite"],
-    repo: "https://github.com/DSM2SEM2024/Inklings.git",
+    repo: "https://github.com/eduardajs3/ProjetoPHP.git",
     imagem: "img/proj_nutri.png",
     participacao:
       "Atuei na prototipagem da interface de usuário (UI/UX) no Figma, garantindo uma identidade visual acolhedora na Landing Page e um layout funcional e produtivo no Dashboard, além do desenvolvimento dos componentes dinâmicos do Front-end em React para navegação entre as telas de pacientes, formulários e calendário.",
