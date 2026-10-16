@@ -13,6 +13,9 @@ function renderPerfil() {
   document.querySelectorAll("[data-github]").forEach((a) => {
     a.href = profile.github;
   });
+  document.querySelectorAll("[data-linkedin]").forEach((a) => {
+    a.href = profile.linkedin;
+  });
 
   setText(document, "[data-first-names]", partes.slice(0, 2).join(" "));
   setText(document, "[data-last-names]", partes.slice(2).join(" "));

@@ -4,8 +4,9 @@ const profile = {
   foto: "img/Eduarda.jpg",
   role: "Estudante de Desenvolvimento de Software Multiplataforma",
   github: "https://github.com/eduardajs3",
+  linkedin: "https://www.linkedin.com/in/eduarda-josileide-49028b324",
   tagline:
-    "Estudante de DSM na Fatec Itaquera e estagiária de suporte técnico, unindo infraestrutura e desenvolvimento para construir soluções que funcionam de verdade.",
+    "Estudante de DSM na Fatec Itaquera e estagiária de suporte técnico, com foco em tecnologia e desenvolvimento de soluções.",
   course: {
     faculdade: "Faculdade de Tecnologia de São Paulo (Fatec) — Unidade Itaquera, Prof. Miguel Reale",
     curso: "Desenvolvimento de Software Multiplataforma",
@@ -68,7 +69,13 @@ const courses = [
     periodo: "06/2026",
     local: "Online",
   },
-  
+  {
+    nome: "Figma: interatividade e prototipação",
+    instituicao: "Alura",
+    horas: "6h",
+    periodo: "06/2026",
+    local: "Online",
+  },
   {
     nome: "AZ-900: Introdução à Infraestrutura de Nuvem",
     instituicao: "Microsoft",
@@ -85,13 +92,7 @@ const courses = [
   },
   
 
-  {
-    nome: "Figma: interatividade e prototipação",
-    instituicao: "Alura",
-    horas: "6h",
-    periodo: "06/2026",
-    local: "Online",
-  },
+  
  
 ];
 
