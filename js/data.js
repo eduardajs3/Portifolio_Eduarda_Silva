@@ -128,12 +128,12 @@ const projects = [
     resumo:
       "Plataforma dupla composta por Landing Page institucional para captação de clientes e Painel Administrativo com autenticação para gestão de pacientes, agenda e reuniões.",
     descricao:
-      "O Sistema de Atendimento Nutricional foi projetado para cobrir o ciclo completo da rotina da profissional de nutrição, dividido em duas estruturas principais: a Landing Page Institucional (página pública), focada em atrair novos clientes, com apresentação profissional, sessão de depoimentos de pacientes, formulário de contato e área de cadastro; e o Painel de Gestão (área restrita), acessível via tela de autenticação, com Dashboard interativo de atendimentos, módulo de gestão e prontuário de pacientes, agenda de consultas e agendamento de reuniões.",
+      "O Sistema de Atendimento Nutricional foi projetado para cobrir o ciclo completo da rotina da profissional de nutrição, dividido em duas estruturas principais: a Landing Page Institucional, focada em atrair novos clientes, com apresentação profissional, sessão de depoimentos de pacientes, formulário de contato e área de cadastro; e o Painel de Gestão, acessível via tela de autenticação, com Dashboard interativo de atendimentos, módulo de gestão e prontuário de pacientes, agenda de consultas e agendamento de reuniões.",
     tecnologias: ["PHP", "React", "Figma", "SQLite"],
     repo: "https://github.com/eduardajs3/ProjetoPHP.git",
     imagem: "img/proj_nutri.png",
     participacao:
-      "Atuei na prototipagem da interface de usuário (UI/UX) no Figma, garantindo uma identidade visual acolhedora na Landing Page e um layout funcional e produtivo no Dashboard, além do desenvolvimento dos componentes dinâmicos do Front-end em React para navegação entre as telas de pacientes, formulários e calendário.",
+      "Atuei na prototipagem da interface de usuário no Figma, garantindo uma identidade visual acolhedora na Landing Page e um layout funcional e produtivo no Dashboard, além do desenvolvimento dos componentes dinâmicos do Front-end em React para navegação entre as telas de pacientes, formulários e calendário.",
     minhasTecnologias: ["React", "Figma"],
     galeria: ["img/homeflu.png","img/sobreflu.png","img/depoimentosflu.png","img/criaflu.png","img/contaflu.png","img/FluAgenda.png","img/FluAgendamentos.png","img/FluReunioes.png"],
   },
@@ -153,7 +153,7 @@ const projects = [
     },
     imagem: "img/proj_gt_sistema.png",
     participacao:
-      "Atuei no UI/UX Design, auxiliando na prototipagem das telas no Figma com um layout limpo para facilitar o uso , e no Front-end com React e Tailwind CSS, desenvolvendo a interface e estruturando os dados dos formulários de cadastro de clientes e projetos.",
+      "Atuei no UI e UX Design, auxiliando na prototipagem das telas no Figma com um layout limpo para facilitar o uso , e no Front-end com React e Tailwind CSS, desenvolvendo a interface e estruturando os dados dos formulários de cadastro de clientes e projetos.",
     minhasTecnologias: ["React", "Tailwind CSS", "Figma"],
     galeria: ["img/GtLogin.png", "img/projetosgt.png", "img/clientesgt.png", "img/engenheirosgt.png","img/instaladoresgt.png", "img/orcamentosgt.png"],
   },
@@ -165,7 +165,7 @@ const projects = [
     resumo:
       "Portal institucional com simulador interativo de economia solar, suporte a Dark Mode e Painel Administrativo exclusivo para gestão completa de conteúdos (projetos, blog, FAQ e leads).",
     descricao:
-      "A plataforma da GT Solar foi projetada para atuar em duas frentes integradas. No Website Público & Ferramenta de Conversão: navegação completa com seções de Início, Quem Somos, Projetos Realizados, Depoimentos, Blog, FAQ e Contato; Simulador de Economia, uma calculadora interativa para potenciais clientes estimarem a economia na conta de luz; e suporte nativo a Modo Claro / Modo Escuro. No Painel Administrativo Restrito: gerenciamento de conteúdo para cadastrar, editar e excluir projetos, artigos do blog, FAQ e depoimentos em tempo real, além de gestão de leads com as solicitações do formulário de contato e simulações realizadas.",
+      "A plataforma da GT Solar foi projetada para atuar em duas frentes integradas. No Website Público e Ferramenta de Conversão: navegação completa com seções de Início, Quem Somos, Projetos Realizados, Depoimentos, Blog, FAQ e Contato; Simulador de Economia, uma calculadora interativa para potenciais clientes estimarem a economia na conta de luz; e suporte nativo a Modo Claro e Modo Escuro. No Painel Administrativo Restrito: gerenciamento de conteúdo para cadastrar, editar e excluir projetos, artigos do blog, FAQ e depoimentos em tempo real, além de gestão de leads com as solicitações do formulário de contato e simulações realizadas.",
     tecnologias: ["Figma", "React", "Tailwind CSS", "Java", "MongoDB"],
     repos: {
       frontend: "https://github.com/LaboratorioDSMWeb/GTSolar.git",
@@ -173,7 +173,7 @@ const projects = [
     },
     imagem: "img/proj_gt_site.png",
     participacao:
-      "Atuei no UI/UX Design & Prototipagem, auxiliando na criação e estruturação do protótipo no Figma com um visual moderno para o site e uma interface intuitiva para o Painel Administrativo, e no Desenvolvimento Front-end com React e Tailwind CSS, implementando as interfaces do site e do sistema de gestão em React com Tailwind CSS, com estilização responsiva e suporte fluido ao alternador de temas (Dark Mode).",
+      "Atuei no UI e UX Design & Prototipagem, auxiliando na criação e estruturação do protótipo no Figma com um visual moderno para o site e uma interface intuitiva para o Painel Administrativo, e no Desenvolvimento Front-end com React e Tailwind CSS, implementando as interfaces do site e do sistema de gestão em React com Tailwind CSS, com estilização responsiva e suporte fluido ao alternador de temas.",
     minhasTecnologias: ["React", "Tailwind CSS", "Figma"],
     galeria: ["img/HomeGt.png", "img/QuemSomosGt.png","img/Simulador.png","img/Modoescuro.png","img/FAQ.png","img/Projetos.png","img/Contato.png","img/Home.png","img/ProjetosAdmin.png","img/ContatosAdmin.png"],
   },
@@ -185,7 +185,7 @@ const projects = [
     resumo:
       "Aplicativo mobile focado na gestão operacional e financeira de consultórios odontológicos, centralizando pacientes, prontuários, exames, agendamentos e controle financeiro.",
     descricao:
-      "O OdontoCare é um aplicativo mobile focado na gestão operacional e financeira de consultórios odontológicos. Desenvolvido para simplificar a rotina da cirurgiã-dentista, o sistema centraliza desde o cadastro de pacientes, prontuários digitais e upload de exames até o fluxo completo de agendamento e controle financeiro de consultas (orçamentos, pagamentos realizados e saldos pendentes). A aplicação segue a arquitetura Client-Server, com Front-end mobile construído em React Native com Expo, componentes modulares, navegação fluida e interface prototipada no Figma.",
+      "O OdontoCare é um aplicativo mobile focado na gestão operacional e financeira de consultórios odontológicos. Desenvolvido para simplificar a rotina da cirurgiã-dentista, o sistema centraliza desde o cadastro de pacientes, prontuários digitais e upload de exames até o fluxo completo de agendamento e controle financeiro de consultas. A aplicação segue a arquitetura Client-Server, com Front-end mobile construído em React Native com Expo, componentes modulares, navegação fluida e interface prototipada no Figma.",
     tecnologias: ["React Native", "Expo", "Figma", "Node.js", "MongoDB"],
     repos: {
       frontend: "https://github.com/OdontoDSM/OdontoCare.git",
